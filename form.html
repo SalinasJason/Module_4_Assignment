@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <header>
@@ -15,40 +15,46 @@
                 <li><a href="media.html" target="_self">Media</a></li>
                 <li><a href="form.html" target="_self">Contact US</a></li>
             </ul>
-            <h1>Home</h1>
+            <h1>Contact Us</h1>
         </nav>
     </header>
     <main>
         <!-- Beginning of the form -->
         <form action="/submit" method="post">
+
             <!-- Label and text input field -->
             <label for="name">Name:</label>
             <input type="text" name="name" id="name" placeholder="Enter your name">
 
             <br>
 
+            <!-- Label and email input field -->
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" placeholder="example@example.com">
 
             <br>
-
+            
+            <!-- Label and subject textarea field -->
             <label for="subject">Subject</label>
-            <textarea name="subject" id="subject" placeholder="Write something"></textarea>
+            <textarea name="subject" id="subject" placeholder="Write something" rows="4" cols="41"></textarea>
 
             <br>
 
+            <!-- Label and message textarea field -->
             <label for="message">Message</label>
-            <textarea name="message" id="message" placeholder="Your Message"></textarea>
+            <textarea name="message" id="message" placeholder="Your Message" rows="4" cols="40"></textarea>
 
             <br>
-
+            <!-- Submit button to submit form -->
             <input type="submit" value="Submit">
 
+            <!-- Reset button to reset the form fields -->
             <input type="reset" value="Reset">
         </form>
+        <!-- End of form -->
     </main>
     <footer>
-        <p>&copy; Copyright 2024 Jason Salinas Productions | <a href="https://github.com/SalinasJason"></a>Github</p>
+        <p>&copy; Copyright 2024 Jason Salinas Productions | <a href="https://github.com/SalinasJason">GitHub</a></p>
     </footer>
 </body>
 </html>
