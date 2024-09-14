@@ -1,8 +1,47 @@
 /* Main CSS page */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     color: white;
     background-color: #172D13;
 }
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;   
+}
+
+h2 {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 1.5em;
+}
+
+p a {
+    color: #D76F30;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.feature-card {
+    border: 2px solid #6bb77b;
+    padding: 20px;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+
 
 a {
     display: inline-block;
