@@ -1,0 +1,19 @@
+/* Main CSS page */
+body {
+    color: white;
+    background-color: #172D13;
+}
+
+a {
+    display: inline-block;
+    color: #D76F30;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #D76F30;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #D76F30;
+    color: white;
+}

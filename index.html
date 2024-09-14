@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <!-- Method 1: External CSS -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Method 2: Internal CSS -->
+    <style>
+        .internal-css {
+            color: rgb(163, 69, 81);
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -26,11 +34,11 @@
             <ul>
                 <li><a href="#intro">Introduction</a></li>
                 <li><a href="#content">Content</a></li>
-                <li><a href="#conclusion" id="#conclusion">Conclusion</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
             </ul>
         </nav>
         <!-- This is the main content -->
-        <section id="intro">
+        <section id="intro" class="internal-css">
             <h2>Introduction</h2>
             <p>Dignissim morbi semper auctor quis; senectus laoreet. Aliquet eu volutpat platea nostra magnis. Morbi velit ligula rutrum et hac eleifend penatibus rhoncus porttitor. Neque non sociosqu dictumst semper praesent fermentum, aenean habitant tincidunt. Interdum mauris at phasellus egestas nullam adipiscing magnis. Senectus semper nibh posuere leo placerat, primis vehicula finibus. Auctor morbi neque pharetra euismod convallis integer natoque. Mollis consectetur phasellus metus; mauris erat ultrices. Gravida egestas id justo nec quisque. Iaculis dui fringilla varius auctor torquent lacus, vel velit.</p>
             <p>Dignissim morbi semper auctor quis; senectus laoreet. Aliquet eu volutpat platea nostra magnis. Morbi velit ligula rutrum et hac eleifend penatibus rhoncus porttitor. Neque non sociosqu dictumst semper praesent fermentum, aenean habitant tincidunt. Interdum mauris at phasellus egestas nullam adipiscing magnis. Senectus semper nibh posuere leo placerat, primis vehicula finibus. Auctor morbi neque pharetra euismod convallis integer natoque. Mollis consectetur phasellus metus; mauris erat ultrices. Gravida egestas id justo nec quisque. Iaculis dui fringilla varius auctor torquent lacus, vel velit.</p>
@@ -38,7 +46,8 @@
             <p>Dignissim morbi semper auctor quis; senectus laoreet. Aliquet eu volutpat platea nostra magnis. Morbi velit ligula rutrum et hac eleifend penatibus rhoncus porttitor. Neque non sociosqu dictumst semper praesent fermentum, aenean habitant tincidunt. Interdum mauris at phasellus egestas nullam adipiscing magnis. Senectus semper nibh posuere leo placerat, primis vehicula finibus. Auctor morbi neque pharetra euismod convallis integer natoque. Mollis consectetur phasellus metus; mauris erat ultrices. Gravida egestas id justo nec quisque. Iaculis dui fringilla varius auctor torquent lacus, vel velit.</p>
             <p>Dignissim morbi semper auctor quis; senectus laoreet. Aliquet eu volutpat platea nostra magnis. Morbi velit ligula rutrum et hac eleifend penatibus rhoncus porttitor. Neque non sociosqu dictumst semper praesent fermentum, aenean habitant tincidunt. Interdum mauris at phasellus egestas nullam adipiscing magnis. Senectus semper nibh posuere leo placerat, primis vehicula finibus. Auctor morbi neque pharetra euismod convallis integer natoque. Mollis consectetur phasellus metus; mauris erat ultrices. Gravida egestas id justo nec quisque. Iaculis dui fringilla varius auctor torquent lacus, vel velit.</p>
         </section>
-        <section id="content">
+        <!-- Method 3: Inline CSS-->
+        <section id="content" style="color: rgb(133, 178, 214);">
             <h2>Content</h2>
             <p>Porta est ultricies accumsan diam aenean nulla. Magnis elit venenatis maecenas volutpat consectetur viverra duis condimentum. Mattis varius tristique egestas enim eros tincidunt; massa blandit cras. Tempor luctus conubia, magna cursus viverra leo enim tempus. Eget cubilia odio nisi mauris libero nostra. Litora magna curae vivamus, suscipit integer dapibus sit. Fusce class montes mus velit orci. Euismod suspendisse a fermentum in ullamcorper ullamcorper nisi augue. Cursus pretium et volutpat penatibus congue eget.</p>
             <p>Porta est ultricies accumsan diam aenean nulla. Magnis elit venenatis maecenas volutpat consectetur viverra duis condimentum. Mattis varius tristique egestas enim eros tincidunt; massa blandit cras. Tempor luctus conubia, magna cursus viverra leo enim tempus. Eget cubilia odio nisi mauris libero nostra. Litora magna curae vivamus, suscipit integer dapibus sit. Fusce class montes mus velit orci. Euismod suspendisse a fermentum in ullamcorper ullamcorper nisi augue. Cursus pretium et volutpat penatibus congue eget.</p>
