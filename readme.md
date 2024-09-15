@@ -1,2 +1,2 @@
 Author: Jason Salinas
-Purpose: Creating a website with 5 pages
+Purpose: Module 5 Assignment 
