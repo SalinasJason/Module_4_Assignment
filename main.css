@@ -32,14 +32,34 @@ p a {
 }
 
 ul {
-    list-style-type: square;
+    list-style-type: none;
+    margin: 20px;
+    margin-bottom: 20px;
 }
 
 .feature-card {
-    border: 2px solid #6bb77b;
-    padding: 20px;
-    margin: 20px;
-    background-color: antiquewhite;
+    border: 1px solid #6bb77b;
+    padding: 2px;
+    margin: 10px;
+    background-color: #6bb77b;
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    color: white;
+}
+
+.feature-card p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+#special-feature {
+    background-color: #6bb77b;
+    border-color: #172D13;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 1px;
 }
 
 
@@ -50,6 +70,7 @@ a {
     padding: 5px 10px;
     border: 1px solid #D76F30;
     transition: all 0.3s ease;
+    
 }
 
 a:hover {
