@@ -5,11 +5,13 @@ body, h1, h2, p, ul, li {
    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Styling the body*/
 body {
     color: white;
     background-color: #172D13;
 }
 
+/* Styling the headers*/
 h1 {
     font-size: 2em;
     margin-bottom: 0.5em;   
@@ -21,22 +23,26 @@ h2 {
     margin-bottom: 0.5em;
 }
 
+/* Styling paragraphs*/
 p {
     font-size: 16px;
     margin-bottom: 1.5em;
 }
 
+/* Styling the link within the paragraph*/
 p a {
     color: #D76F30;
     text-decoration: none;
 }
 
+/* Styling unordered list*/
 ul {
     list-style-type: none;
     margin: 20px;
     margin-bottom: 20px;
 }
 
+/* General styling using a class */
 .feature-card {
     border: 1px solid #6bb77b;
     padding: 2px;
@@ -44,16 +50,19 @@ ul {
     background-color: #6bb77b;
 }
 
+/* Styling h3 within a class */
 .feature-card h3 {
     font-size: 20px;
     color: white;
 }
 
+/* Styling p within a class */
 .feature-card p {
     margin-bottom: 10px;
     color: white;
 }
 
+/* Specific styling using an ID*/
 #special-feature {
     background-color: #6bb77b;
     border-color: #172D13;
@@ -63,6 +72,7 @@ ul {
 }
 
 
+/* Styling links*/
 a {
     display: inline-block;
     color: #D76F30;
@@ -70,9 +80,9 @@ a {
     padding: 5px 10px;
     border: 1px solid #D76F30;
     transition: all 0.3s ease;
-    
 }
 
+/* Styling for the hover state*/
 a:hover {
     background-color: #D76F30;
     color: white;
